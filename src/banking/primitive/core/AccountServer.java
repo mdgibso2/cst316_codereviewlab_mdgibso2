@@ -1,3 +1,11 @@
+/*
+  File:	AccountServer.java
+  Author: Unknown
+  Date:	2/7/2016
+  
+  Description: The interface for account set up
+*/
+
 package banking.primitive.core;
 
 import java.io.IOException;

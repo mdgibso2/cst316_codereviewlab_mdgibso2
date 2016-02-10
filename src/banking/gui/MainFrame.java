@@ -1,3 +1,11 @@
+/*
+  File:	Main.java
+  Author: Unknown
+  Date:	2/7/2016
+  
+  Description: The main file to build the ui
+*/
+
 package banking.gui;
 
 import banking.primitive.core.Account;
