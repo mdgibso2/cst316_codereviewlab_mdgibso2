@@ -1,3 +1,11 @@
+/*
+  File:	Main.java
+  Author: Unknown
+  Date:	2/7/2016
+  
+  Description: The main file to run the program
+*/
+
 package banking.gui;
 
 import javax.swing.JFrame;

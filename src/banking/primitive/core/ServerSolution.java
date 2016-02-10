@@ -1,3 +1,11 @@
+/*
+  File:	ServerSolution.java
+  Author: Unknown
+  Date:	2/7/2016
+  
+  Description: The implimintation of AccountServer interface
+*/
+
 package banking.primitive.core;
 
 import java.util.ArrayList;

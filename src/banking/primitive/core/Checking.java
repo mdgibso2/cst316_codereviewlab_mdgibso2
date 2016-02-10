@@ -1,3 +1,11 @@
+/*
+  File:	Checking.java
+  Author: Unknown
+  Date:	2/7/2016
+  
+  Description: Used for creating checking accounts based off of accounts
+*/
+
 package banking.primitive.core;
 
 public class Checking extends Account {

@@ -1,3 +1,11 @@
+/*
+  File:	Savings.java
+  Author: Unknown
+  Date:	2/7/2016
+  
+  Description: Used for creating savings accounts based off of accounts
+*/
+
 package banking.primitive.core;
 
 public class Savings extends Account {
