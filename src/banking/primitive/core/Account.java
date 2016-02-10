@@ -36,6 +36,11 @@ public abstract class Account implements java.io.Serializable {
     }
 
     /**
+     * @return either "Checking" or "Savings"
+     */
+    public abstract String getType();
+
+    /**
      * Adds money to an account. May not be done if the account is CLOSED
      * 
      * @param parameter
@@ -55,11 +60,6 @@ public abstract class Account implements java.io.Serializable {
      *         invalid state
      */
     public abstract boolean withdraw(float amount);
-
-    /**
-     * @return either "Checking" or "Savings"
-     */
-    public abstract String getType();
 
     protected final State getState() {
         return state;

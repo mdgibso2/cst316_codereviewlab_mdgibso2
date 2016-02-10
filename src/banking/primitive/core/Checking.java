@@ -17,6 +17,8 @@ public class Checking extends Account {
 		super(name, balance);
 	}
 
+	public String getType() { return "Checking"; }
+
 	/**
 	 * A deposit may be made unless the Checking account is closed
 	 * @param float is the deposit amount
@@ -52,8 +54,6 @@ public class Checking extends Account {
 		}
 		return false;
 	}
-
-	public String getType() { return "Checking"; }
 	
 	public String toString() {
 		return "Checking: " + getName() + ": " + getBalance();
